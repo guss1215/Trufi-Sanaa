@@ -66,9 +66,14 @@ final List<IRoutingProvider> _routingEngines = [
     endpoint: _otp281Endpoint,
     displayName: 'OTP 2.8.1',
     showWheelchairOption: false,
+    showBicycleOption: false,
   ),
   // Online routing via OTP 1.5.0
-  Otp15RoutingProvider(endpoint: _otp150Endpoint, displayName: 'OTP 1.5.0'),
+  Otp15RoutingProvider(
+    endpoint: _otp150Endpoint,
+    displayName: 'OTP 1.5.0',
+    showWheelchairOption: false,
+  ),
 ];
 
 // Map engines
@@ -227,9 +232,7 @@ void main() {
       appName: _appName,
       deepLinkScheme: _deepLinkScheme,
       defaultLocale: const Locale('es'),
-      extraLocalizationsDelegates: [
-        AppLocalizations.delegate,
-      ],
+      extraLocalizationsDelegates: [AppLocalizations.delegate],
       themeConfig: TrufiThemeConfig(
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFE1306C)),
@@ -298,6 +301,7 @@ void main() {
             appName: _appName,
             deepLinkScheme: _deepLinkScheme,
             poiLayersManager: POILayersManager(assetsBasePath: 'assets/pois'),
+            showDepartureTimeChip: false,
           ),
           onStartNavigation: (context, itinerary, locationService) {
             NavigationScreen.showFromItinerary(
