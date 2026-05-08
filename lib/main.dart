@@ -58,7 +58,11 @@ final List<IRoutingProvider> _routingEngines = [
   if (kIsWeb)
     TrufiPlannerProvider(
       config: const TrufiPlannerConfig.remote(
-        serverUrl: '/api',
+        // Absolute URL on purpose: a relative `/api` works in
+        // production (same-origin behind the YARP gateway) but
+        // breaks `flutter run -d chrome` locally because it
+        // resolves to `localhost:8080/api`, which doesn't exist.
+        serverUrl: 'https://planner.trufi.app/api',
       ),
     ),
   // Online routing via OTP 2.8.1
