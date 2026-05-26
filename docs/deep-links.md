@@ -64,27 +64,31 @@ curl -i https://planner.trufi.app/.well-known/apple-app-site-association
   app handles any current or future shareable link from this domain — not just `/route`.
   The app's deep-link handler decides what to do per path (today: `/route`; unknown
   paths just open the app).
-- `assetlinks.json` lists `package_name = app.trufi.navigator` and the SHA-256 of the
-  signing certificate. (Asset-links verification is per-domain, independent of path.)
+- `assetlinks.json` lists `package_name = app.trufi.navigator` and two SHA-256
+  fingerprints in `sha256_cert_fingerprints` (see below). (Asset-links verification
+  is per-domain, independent of path.)
 
-### ⚠️ TODO — release signing
+### Signing fingerprints
 
-The app currently signs release builds with the **debug** keystore
-(`android/app/build.gradle` → `signingConfig = signingConfigs.debug`). The SHA-256
-in `assetlinks.json` is therefore the **debug** fingerprint:
+`sha256_cert_fingerprints` is an array (one entry per signing key):
 
-```
-22:C6:BE:5E:54:9B:4C:BE:9C:0F:A9:70:8A:3D:9F:40:12:09:86:01:65:6C:B6:75:9B:89:FA:74:BE:DE:47:8F
-```
+| Fingerprint | Purpose |
+|---|---|
+| `39:45:A6:57:…:9A` | **Production** — Google Play App Signing key (the cert users actually install with) |
+| `22:C6:BE:5E:…:8F` | **Debug** — this machine's `~/.android/debug.keystore` (local test builds) |
 
-This makes App Links verify for locally-built (debug) APKs only. For the
-**Play-Store-distributed** build to verify, configure a release keystore, then
-append its SHA-256 to the `sha256_cert_fingerprints` array (it accepts multiple):
+- **Production:** Google Play re-signs every uploaded build with its own *App
+  signing key*, so the value that must appear here is the one from
+  **Play Console → Setup → App signing → "App signing key certificate" → SHA-256**
+  (NOT the upload key). That is the `39:45:…` fingerprint.
+- **Debug:** machine-specific and optional — kept so locally-built debug APKs also
+  verify. Drop it for a production-only file.
 
-```bash
-"/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/keytool" \
-  -list -v -alias <release-alias> -keystore <release.keystore> | grep SHA256
-```
+> Note: `android/app/build.gradle` still uses `signingConfig = signingConfigs.debug`
+> for the release build type. With Play App Signing this only affects the *upload*
+> key, not the certificate users actually receive (Google re-signs), so App Links
+> verify in production via the App-signing-key fingerprint above. A dedicated
+> release/upload keystore is good hygiene but not required for App Links.
 
 > Note: the repo also contains an unused `android/app/build.gradle.kts` (and
 > `settings.gradle.kts`) with a different `applicationId` (`app.trufi.trufi`).
