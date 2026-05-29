@@ -29,6 +29,10 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 5457263,16,Mo-Su,5457263,Avenida Circuito Bolivia,0
 5470046,12,Mo-Su,5470046,La Concordia,1
 6714096,10,Mo-Su,6714096,Plaza Principal El Paso,1
+6925236,17,Tu-Su,6925236,Cristo de la Concordia,0
+6925237,17,Tu-Su,6925237,Parque de la Autonomía,1
+9074378,18,Mo-Su,9074378,San Antonio,0
+9083839,19,Mo-Su,9083839,Kiñiloma,1
 9118342,20,Mo-Su,9118342,OTB Ecológica,1
 9118541,20,Mo-Su,9118541,Avenida Silala,0
 9119233,21,Mo-Su,9119233,Avenida Arquímedes,0
@@ -415,6 +419,8 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 11151933,90,Mo-Su,11151933,Calle Augusto Guzman,1
 11151958,90,Mo-Su,11151958,Río Seco,1
 11678428,128,Mo-Su,11678428,Maica Chica,1
+14576926,18,Mo-Su,14576926,Suticollo,1
+14576927,19,Mo-Su,14576927,Cochabamba,1
 15749345,73,Mo-Su,15749345,Calle Gran Chaco,0
 15749364,100,Mo-Su,15749364,Avenida Chilimarca,0
 15749404,118,Mo-Su,15749404,Avenida Humberto Asín Rivero,0
