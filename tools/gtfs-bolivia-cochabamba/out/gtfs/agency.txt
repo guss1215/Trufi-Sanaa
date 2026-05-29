@@ -6,7 +6,7 @@ agency_id,agency_name,agency_timezone,agency_url
 4,Sindicato mixto de trufibuses Vinto,America/La_Paz,https://www.cochabamba.bo/
 5,Asociación de transporte integrado de servicio público Apote,America/La_Paz,https://www.cochabamba.bo/
 6,Empresa Municipal de Áreas Verdes y Recreación Alternativa,America/La_Paz,https://www.cochabamba.bo/
-7,Mi Tren,America/La_Paz,https://www.cochabamba.bo/
+7,Operadora del Tren Metropolitano de Cochabamba - Mi Tren,America/La_Paz,https://www.cochabamba.bo/
 8,Sindicato mixto de transporte público 6 de mayo,America/La_Paz,https://www.cochabamba.bo/
 9,Sindicato mixto de transporte Sebastian Pagador,America/La_Paz,https://www.cochabamba.bo/
 10,Sindicato de taxis y trufis 14 de septiembre,America/La_Paz,https://www.cochabamba.bo/
@@ -35,11 +35,11 @@ agency_id,agency_name,agency_timezone,agency_url
 33,Sindicato Señor de Buen Viaje El Paso,America/La_Paz,https://www.cochabamba.bo/
 34,Sindicato de trufibuses 15 de agosto,America/La_Paz,https://www.cochabamba.bo/
 35,Sindicato mixto de transportistas Nuestra Señora del Carmen,America/La_Paz,https://www.cochabamba.bo/
-36,Asociación de taxi trufis 10 de diciembre,America/La_Paz,https://www.cochabamba.bo/
-37,Sindicato de taxi trufis 15 de abril,America/La_Paz,https://www.cochabamba.bo/
-38,Sindicato mixto de trufibuses 3 de noviembre,America/La_Paz,https://www.cochabamba.bo/
-39,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
-40,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
-41,Operadora del Tren Metropolitano de Cochabamba - Mi Tren,America/La_Paz,https://www.cochabamba.bo/
+36,Sindicato 14 de septiembre,America/La_Paz,https://www.cochabamba.bo/
+37,Asociación de taxi trufis 10 de diciembre,America/La_Paz,https://www.cochabamba.bo/
+38,Sindicato de taxi trufis 15 de abril,America/La_Paz,https://www.cochabamba.bo/
+39,Sindicato mixto de trufibuses 3 de noviembre,America/La_Paz,https://www.cochabamba.bo/
+40,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
+41,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
 42,default,America/La_Paz,https://www.cochabamba.bo/
 43,Cotapachi,America/La_Paz,https://www.cochabamba.bo/

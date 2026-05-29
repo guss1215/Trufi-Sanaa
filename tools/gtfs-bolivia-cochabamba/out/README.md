@@ -4,12 +4,12 @@
 
 | Id | Name | Ref | From | To | State |
 | -- | ---- | --- | ---- | -- | ----- |
-[9417509](https://www.openstreetmap.org/relation/9417509) | MicroBus 3V: Río Taquiña → Calle Tómas Gamboa | 3V | Río Taquiña | Calle Tómas Gamboa | ✅
-[9417539](https://www.openstreetmap.org/relation/9417539) | MicroBus 3V: Calle Tómas Gamboa → Río Taquiña | 3V | Calle Tómas Gamboa | Río Taquiña | ✅
+[9417509](https://www.openstreetmap.org/relation/9417509) | MicroBus 3v: Río Taquiña → Calle Tómas Gamboa | 3v | Río Taquiña | Calle Tómas Gamboa | ✅
+[9417539](https://www.openstreetmap.org/relation/9417539) | MicroBus 3v: Calle Tómas Gamboa → Río Taquiña | 3v | Calle Tómas Gamboa | Río Taquiña | ✅
 [4269608](https://www.openstreetmap.org/relation/4269608) | MicroBus A: Villa Israel → Río Taquiña | A | Villa Israel | Río Taquiña | ✅
 [4269609](https://www.openstreetmap.org/relation/4269609) | MicroBus A: Río Taquiña → Villa Israel | A | Río Taquiña | Villa Israel | ✅
 [11678428](https://www.openstreetmap.org/relation/11678428) | Línea Amarilla: Cochabamba → Maica Chica | A | Cochabamba | Maica Chica | ✅
-[19604339](https://www.openstreetmap.org/relation/19604339) | Línea Amarilla: Maica Chica → Cochabamba | Amarilla | Maica Chica | Cochabamba | ✅
+[19604339](https://www.openstreetmap.org/relation/19604339) | Línea Amarilla: Maica Chica → Cochabamba | A | Maica Chica | Cochabamba | ✅
 [4247869](https://www.openstreetmap.org/relation/4247869) | MicroBus B: Calle Las Buganvillas → Pasaje F | B | Calle Las Buganvillas | Pasaje F | ✅
 [4420889](https://www.openstreetmap.org/relation/4420889) | MicroBus B: Pasaje F → Calle Las Buganvillas | B | Pasaje F | Calle Las Buganvillas | ✅
 [4430244](https://www.openstreetmap.org/relation/4430244) | MicroBus C: Avenida Pedro de la Gasca → Calle Manuel Carrasco Jimenez | C | Avenida Pedro de la Gasca | Calle Manuel Carrasco Jimenez | ✅
@@ -55,10 +55,10 @@
 [9645302](https://www.openstreetmap.org/relation/9645302) | MicroBus Q: Avenida Circuito Bolivia → Villa Urkupiña Calvario | Q | Avenida Circuito Bolivia | Villa Urkupiña Calvario | ✅
 [20279144](https://www.openstreetmap.org/relation/20279144) | MicroBus Q: Villa Urkupiña Calvario → Avenida Circuito Bolivia | Q | Villa Urkupiña Calvario | Avenida Circuito Bolivia | ✅
 [20284412](https://www.openstreetmap.org/relation/20284412) | MicroBus Q: Avenida Circuito Bolivia → Villa Urkupiña Calvario | Q | Avenida Circuito Bolivia | Villa Urkupiña Calvario | ✅
+[9083839](https://www.openstreetmap.org/relation/9083839) | Línea Roja: Cochabamba → Kiñiloma | R | Cochabamba | Kiñiloma | ✅
 [9119233](https://www.openstreetmap.org/relation/9119233) | MicroBus R: Bello Horizonte → Avenida Arquímedes | R | Bello Horizonte | Avenida Arquímedes | ✅
 [9123985](https://www.openstreetmap.org/relation/9123985) | MicroBus R: Avenida Arquímedes → Bello Horizonte | R | Avenida Arquímedes | Bello Horizonte | ✅
-[9083839](https://www.openstreetmap.org/relation/9083839) | Línea Roja: Cochabamba → Kiñiloma | Roja | Cochabamba | Kiñiloma | ✅
-[14576927](https://www.openstreetmap.org/relation/14576927) | Línea Roja: Kiñiloma → Cochabamba | Roja | Kiñiloma | Cochabamba | ✅
+[14576927](https://www.openstreetmap.org/relation/14576927) | Línea Roja: Kiñiloma → Cochabamba | R | Kiñiloma | Cochabamba | ✅
 [10668794](https://www.openstreetmap.org/relation/10668794) | MicroBus S: Calle Mendoza → Avenida Blanco Galindo | S | Calle Mendoza | Avenida Blanco Galindo | ✅
 [10677513](https://www.openstreetmap.org/relation/10677513) | MicroBus S: Avenida Blanco Galindo → Calle Mendoza | S | Avenida Blanco Galindo | Calle Mendoza | ✅
 [20141710](https://www.openstreetmap.org/relation/20141710) | Trufi Santiváñez: Cochabamba → Santiváñez | Santiváñez | Cochabamba | Santiváñez | ✅
@@ -66,12 +66,12 @@
 [10807446](https://www.openstreetmap.org/relation/10807446) | MicroBus T: Calle Sacaca → Villa Coña Coña | T | Calle Sacaca | Villa Coña Coña | ✅
 [9386184](https://www.openstreetmap.org/relation/9386184) | Trufi Taquiña: Cruce Taquiña → Planta Taquiña | Taquiña | Cruce Taquiña | Planta Taquiña | ✅
 [10789860](https://www.openstreetmap.org/relation/10789860) | Trufi Taquiña: Planta Taquiña → Cruce Taquiña | Taquiña | Planta Taquiña | Cruce Taquiña | ✅
-[6925236](https://www.openstreetmap.org/relation/6925236) | Teleferico Teleférico: Parque de la Autonomía → Cristo de la Concordia | Teleférico | Parque de la Autonomía | Cristo de la Concordia | ✅
-[6925237](https://www.openstreetmap.org/relation/6925237) | Teleferico Teleférico: Cristo de la Concordia → Parque de la Autonomía | Teleférico | Cristo de la Concordia | Parque de la Autonomía | ✅
+[6925236](https://www.openstreetmap.org/relation/6925236) | Teleférico Teleférico: Parque de la Autonomía → Cristo de la Concordia | Teleférico | Parque de la Autonomía | Cristo de la Concordia | ✅
+[6925237](https://www.openstreetmap.org/relation/6925237) | Teleférico Teleférico: Cristo de la Concordia → Parque de la Autonomía | Teleférico | Cristo de la Concordia | Parque de la Autonomía | ✅
 [10712236](https://www.openstreetmap.org/relation/10712236) | MicroBus U: Calle Manuel Virreira → Segunda Circunvalación | U | Calle Manuel Virreira | Segunda Circunvalación | ✅
 [10712279](https://www.openstreetmap.org/relation/10712279) | MicroBus U: Segunda Circunvalación → Calle Manuel Virreira | U | Segunda Circunvalación | Calle Manuel Virreira | ✅
-[9074378](https://www.openstreetmap.org/relation/9074378) | Línea Verde: Suticollo → San Antonio | Verde | Suticollo | San Antonio | ✅
-[14576926](https://www.openstreetmap.org/relation/14576926) | Línea Verde: San Antonio → Suticollo | Verde | San Antonio | Suticollo | ✅
+[9074378](https://www.openstreetmap.org/relation/9074378) | Línea Verde: Suticollo → San Antonio | V | Suticollo | San Antonio | ✅
+[14576926](https://www.openstreetmap.org/relation/14576926) | Línea Verde: San Antonio → Suticollo | V | San Antonio | Suticollo | ✅
 [5386695](https://www.openstreetmap.org/relation/5386695) | MicroBus W: Calle Poopó → Huachi Rancho | W | Calle Poopó | Huachi Rancho | ✅
 [5386696](https://www.openstreetmap.org/relation/5386696) | MicroBus W: Huachi Rancho → Calle Poopó | W | Huachi Rancho | Calle Poopó | ✅
 [9386225](https://www.openstreetmap.org/relation/9386225) | MicroBus W: Irincollo → Calle Poopó | W | Irincollo | Calle Poopó | ✅
