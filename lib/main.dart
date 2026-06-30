@@ -189,18 +189,21 @@ void main() {
     AppConfiguration(
       appName: _appName,
       deepLinkScheme: _deepLinkScheme,
-      // Arabic-first UI (RTL) for the Sana'a deployment, with English
-      // available in settings. Arabic localizations now ship in trufi-core
-      // (fork branch sanaa-ar) across all packages. To default to English
-      // instead, set defaultLocaleIndex to 1.
+      // English UI by default, with Arabic (RTL) available in settings.
+      // Arabic localizations ship in trufi-core (fork branch sanaa-ar) across
+      // all packages plus this app. To default to Arabic, put Locale('ar')
+      // first in supportedLocales.
       localeConfig: const TrufiLocaleConfig(
-        supportedLocales: [Locale('ar'), Locale('en')],
+        supportedLocales: [Locale('en'), Locale('ar')],
         defaultLocaleIndex: 0,
       ),
       // Pin routing to midday so the offline planner returns results regardless
       // of when the app is opened; the time picker stays hidden.
       routingTimeOverride: const TimeOfDay(hour: 12, minute: 0),
-      extraLocalizationsDelegates: [AppLocalizations.delegate],
+      extraLocalizationsDelegates: [
+        AppLocalizations.delegate,
+        MapsLocalizations.delegate,
+      ],
       themeConfig: TrufiThemeConfig(
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1E88E5)),
